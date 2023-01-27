@@ -90,6 +90,8 @@ python manage.py runserver
 - step 10:- Register newly created model on admin interface using 'admin.py'
 - step 11:- Create username and password using 'python manage.py createsuperuser'
 - step 12:- Run application and check admin interface by heading to '/admin'
+
+
 ## Thumb rule for 'Project root' directory
 in term of django wherever your manage.py file is exits , that directory called as 'working directory of project'
 aka('project root')
