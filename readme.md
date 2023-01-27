@@ -48,12 +48,21 @@ Mini_django-V1 (Project-directory)
 
 '''shell
 
-cd <project-directory>  #cd velocity
+cd <project-directory>  #  cd velocity
 python manage.py migrate
 '''
 
--to run the application
+- to run the application
 
 '''shell
 python manage.py runserver
 '''
+
+## Synopsis to start with django
+- step 1 :- Create directory mkdir <project-root>
+- step 2 :- cd to directory in step 1
+- step 3 :- django-admin.exe startproject velocity
+- step 4 :- cd velocity
+- step 5 :- create DB tables python manage.py migrate
+- step 6 :- run project python manage.py runserver
+- 
